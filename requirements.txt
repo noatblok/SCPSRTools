@@ -1,1 +1,1 @@
-git+https://github.com/pynecone-io/pynecone
+git+https://github.com/noatblok/pynecone
