@@ -4,7 +4,7 @@ RUN adduser --disabled-password pynecone
 
 
 FROM base as build
-
+RUN apt-get update && apt-get install --assume-yes git
 WORKDIR /app
 ENV VIRTUAL_ENV=/app/venv
 RUN python3 -m venv $VIRTUAL_ENV
@@ -25,7 +25,7 @@ RUN apt-get update && apt-get install -y \
     nodejs \
     unzip \
     && rm -rf /var/lib/apt/lists/*
-RUN apt-get install --assume-yes git
+
 
 ENV PATH="/app/venv/bin:$PATH"
 
