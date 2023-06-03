@@ -2,8 +2,8 @@ version: '3.3'
 services:
     pynecone:
         ports:
-            - '4500:3000'
-            - '8100:8000'
+            - '3000:3000'
+            - '3000:8000'
         build:
           context: .
           dockerfile: Dockerfile

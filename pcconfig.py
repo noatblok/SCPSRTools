@@ -8,6 +8,6 @@ config = ScpsiteroleplayConfig(
     db_url="sqlite:///pynecone.db",
     bun_path="/app/.bun/bin/bun",
     telemetry_enabled=False,
-    api_url="0.0.0.0:8100",
-    port=4500
+    api_url="209.126.80.217:8000",
+    port=3000
 )

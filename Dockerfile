@@ -46,5 +46,5 @@ WORKDIR /app
 
 CMD ["pc","run" , "--env", "prod"]
 
-EXPOSE 4500
-EXPOSE 8100
+EXPOSE 3000
+EXPOSE 8000
