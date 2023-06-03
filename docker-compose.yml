@@ -2,7 +2,7 @@ version: '3.3'
 services:
     pynecone:
         ports:
-            - '4100:4100'
+            - '4500:4500'
             - '8100:8100'
         container_name: pynecone
         image: 'pynecone:latest'
