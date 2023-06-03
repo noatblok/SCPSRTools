@@ -9,5 +9,6 @@ config = ScpsiteroleplayConfig(
     env=pc.Env.DEV,
     telemetry_enabled=False,
     api_url="0.0.0.0:8100",
-    bun_path="/app/.bun/bin/bun"
+    bun_path="/app/.bun/bin/bun",
+    port=4500
 )
