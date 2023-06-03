@@ -4,5 +4,6 @@ services:
         ports:
             - '4500:4500'
             - '8100:8100'
-        container_name: pynecone
-        image: 'pynecone:latest'
+        build:
+          context: .
+          dockerfile: Dockerfile
