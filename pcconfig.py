@@ -6,9 +6,8 @@ class ScpsiteroleplayConfig(pc.Config):
 config = ScpsiteroleplayConfig(
     app_name="scpsiteroleplay",
     db_url="sqlite:///pynecone.db",
-    env=pc.Env.DEV,
+    bun_path="/app/.bun/bin/bun",
     telemetry_enabled=False,
     api_url="0.0.0.0:8100",
-    bun_path="/app/.bun/bin/bun",
     port=4500
 )
