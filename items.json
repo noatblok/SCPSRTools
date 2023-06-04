@@ -1,0 +1,436 @@
+{
+    "items": [
+        {
+            "name": "Medkit",
+            "id": "med"
+        },
+        {
+            "name": "Pizza",
+            "id": "pizza"
+        },
+        {
+            "name": "Coffee",
+            "id": "coffee"
+        },
+        {
+            "name": "Crowbar",
+            "id": "cb"
+        },
+        {
+            "name": "Flashlight",
+            "id": "light"
+        },
+        {
+            "name": "Hacking Device",
+            "id": "hack"
+        },
+        {
+            "name": "Wall Patch",
+            "id": "wpat"
+        },
+        {
+            "name": "Food Tray",
+            "id": "food"
+        },
+        {
+            "name": "Glock 17",
+            "id": "glock"
+        },
+        {
+            "name": "Clipboard",
+            "id": "clipb"
+        },
+        {
+            "name": "Orange Food",
+            "id": "ofood"
+        },
+        {
+            "name": "Vent Map",
+            "id": "vmap"
+        },
+        {
+            "name": "Blowtorch",
+            "id": "btorch"
+        },
+        {
+            "name": "Nothing",
+            "id": "none"
+        },
+        {
+            "name": "Green Food",
+            "id": "gfood"
+        },
+        {
+            "name": "Wood Planks",
+            "id": "planks"
+        },
+        {
+            "name": "FAMAS",
+            "id": "famas"
+        },
+        {
+            "name": "Red Food",
+            "id": "rfood"
+        },
+        {
+            "name": "G17",
+            "id": "g17"
+        },
+        {
+            "name": "Better Medkit",
+            "id": "bmed"
+        },
+        {
+            "name": "Iron Bars",
+            "id": "ibar"
+        },
+        {
+            "name": "AK74",
+            "id": "ak"
+        },
+        {
+            "name": "Desert Eagle",
+            "id": "deagle"
+        },
+        {
+            "name": "MP5SD",
+            "id": "mp5sd"
+        },
+        {
+            "name": "UMP-45",
+            "id": "ump"
+        },
+        {
+            "name": "HK416",
+            "id": "hk"
+        },
+        {
+            "name": "Stolen M4",
+            "id": "stolem4"
+        },
+        {
+            "name": "Riot Shield",
+            "id": "shield"
+        },
+        {
+            "name": "M249",
+            "id": "machinegun"
+        },
+        {
+            "name": "P-90-L",
+            "id": "p90"
+        },
+        {
+            "name": "Mop",
+            "id": "mop"
+        },
+        {
+            "name": "SCAR-H",
+            "id": "scar"
+        },
+        {
+            "name": "Tazer",
+            "id": "taze"
+        },
+        {
+            "name": "SCP-198",
+            "id": "198"
+        },
+        {
+            "name": "SCP-330",
+            "id": "330"
+        },
+        {
+            "name": "SCP-701-1",
+            "id": "701-1"
+        },
+        {
+            "name": "SCP-860",
+            "id": "860"
+        },
+        {
+            "name": "SCP-1025",
+            "id": "1025"
+        },
+        {
+            "name": "M4",
+            "id": "m4"
+        },
+        {
+            "name": "SCAR-H",
+            "id": "scar"
+        },
+        {
+            "name": "Cage",
+            "id": "cage"
+        },
+        {
+            "name": "Handcuffs",
+            "id": "cuff"
+        },
+        {
+            "name": "ID Card",
+            "id": "idcard"
+        },
+        {
+            "name": "Lavender",
+            "id": "lav"
+        },
+        {
+            "name": "Lost Vent Map",
+            "id": "lostvmap"
+        },
+        {
+            "name": "Master Cuffs",
+            "id": "mcuff"
+        },
+        {
+            "name": "Nuke Key",
+            "id": "nukekey"
+        },
+        {
+            "name": "Teddy",
+            "id": "teddy"
+        }
+    ],
+    "tracks": {
+        "med": [
+            ["bmed", "R"],
+            ["bmed", "F"],
+            ["food", "F"],
+            ["pizza", "F"],
+            ["hk", "VF"],
+            ["shield", "VF"]
+        ],
+        "pizza": [
+            ["bmed", "11"],
+            ["coffee", "VF"],
+            ["lav", "R"],
+            ["lav", "11"],
+            ["lav", "F"],
+            ["m4", "R"],
+            ["p90", "R"],
+            ["scar", "R"]
+        ],
+        "coffee": [
+            ["btorch", "R"],
+            ["clipb", "R"],
+            ["food", "11"],
+            ["food", "VF"],
+            ["mop", "F"],
+            ["deagle", "R"],
+            ["glock", "R"],
+            ["gfood", "F"]
+        ],
+        "cb": [
+            ["btorch", "11"],
+            ["light", "R"],
+            ["ibar", "R"],
+            ["vmap", "11"],
+            ["wpat", "R"],
+            ["planks", "F"]
+        ],
+        "light": [
+            ["btorch", "F"],
+            ["clipb", "F"],
+            ["cb", "11"],
+            ["mop", "VF"],
+            ["vmap", "F"],
+            ["glock", "VF"]
+        ],
+        "hack": [
+            ["btorch", "F"]
+        ],
+        "wpat": [
+            ["btorch", "VF"],
+            ["cb", "F"],
+            ["ibar", "VF"],
+            ["planks", "VF"],
+            ["m4", "VF"],
+            ["p90", "11"]
+        ],
+        "food": [
+            ["clipb", "11"],
+            ["pizza", "11"],
+            ["gfood", "R"],
+            ["ofood", "R"],
+            ["rfood", "R"]
+        ],
+        "glock": [
+            ["clipb", "VF"]
+        ],
+        "clipb": [
+            ["coffee", "R"],
+            ["coffee", "11"],
+            ["teddy", "F"],
+            ["glock", "F"]
+        ],
+        "ofood": [
+            ["coffee", "F"],
+            ["rfood", "11"]
+        ],
+        "vmap": [
+            ["cb", "R"],
+            ["teddy", "11"],
+            ["ump", "VF"],
+            ["860", "11"]
+        ],
+        "btorch": [
+            ["cb", "VF"],
+            ["light", "VF"],
+            ["ibar", "F"],
+            ["vmap", "VF"],
+            ["scar", "F"]
+        ],
+        "gfood": [
+            ["food", "R"],
+            ["deagle", "VF"],
+            ["ofood", "F"],
+            ["rfood", "F"]
+        ],
+        "planks": [
+            ["ibar", "11"]
+        ],
+        "famas": [
+            ["lav", "VF"]
+        ],
+        "rfood": [
+            ["mop", "11"],
+            ["pizza", "R"],
+            ["vmap", "R"],
+            ["ump", "R"],
+            ["gfood", "11"],
+            ["ofood", "11"]
+        ],
+        "G17": [
+            ["teddy", "R"],
+            ["deagle", "11"]
+        ],
+        "bmed": [
+            ["teddy", "VF"],
+            ["scar", "VF"]
+        ],
+        "ibar": [
+            ["wpat", "11"],
+            ["planks", "11"],
+            ["hk", "R"],
+            ["machinegun", "R"],
+            ["860", "F"]
+        ],
+        "none": [
+            ["wpat", "F"]
+        ],
+        "mop": [
+            ["planks", "R"],
+            ["p90", "VF"],
+            ["shield", "11"]
+        ],
+        "mp5sd": [
+            ["deagle", "F"],
+            ["machinegun", "F"]
+        ],
+        "ump": [
+            ["glock", "11"],
+            ["p90", "F"]
+        ],
+        "stolem4": [
+            ["m4", "11"]
+        ],
+        "shield": [
+            ["hk", "F"],
+            ["ump", "F"]
+        ],
+        "m4": [
+            ["machinegun", "11"]
+        ],
+        "deagle": [
+            ["machinegun", "VF"]
+        ],
+        "hk": [
+            ["m4", "F"],
+            ["stolem4", "11"]
+        ],
+        "ak": [
+            ["stolem4", "F"]
+        ],
+        "machinegun": [
+            ["stolem4", "VF"]
+        ],
+        "p90": [
+            ["ump", "11"]
+        ],
+        "198": [
+            ["860", "VF"]
+        ],
+        "Random": [
+            ["bmed", "VF"],
+            ["cage", "R"],
+            ["cage", "11"],
+            ["cage", "F"],
+            ["cage", "VF"],
+            ["cuff", "R"],
+            ["cuff", "11"],
+            ["cuff", "F"],
+            ["cuff", "VF"],
+            ["idcard", "R"],
+            ["idcard", "11"],
+            ["idcard", "F"],
+            ["idcard", "VF"],
+            ["lostvmap", "R"],
+            ["lostvmap", "11"],
+            ["lostvmap", "F"],
+            ["lostvmap", "VF"],
+            ["mcuff", "R"],
+            ["mcuff", "11"],
+            ["mcuff", "F"],
+            ["mcuff", "VF"],
+            ["mop", "R"],
+            ["nukekey", "R"],
+            ["nukekey", "11"],
+            ["nukekey", "F"],
+            ["nukekey", "VF"],
+            ["pizza", "VF"],
+            ["wpat", "VF"],
+            ["ak", "R"],
+            ["ak", "11"],
+            ["ak", "F"],
+            ["ak", "VF"],
+            ["famas", "R"],
+            ["famas", "11"],
+            ["famas", "F"],
+            ["famas", "VF"],
+            ["g17", "R"],
+            ["g17", "11"],
+            ["g17", "F"],
+            ["g17", "VF"],
+            ["mp5sd", "R"],
+            ["mp5sd", "11"],
+            ["mp5sd", "F"],
+            ["mp5sd", "VF"],
+            ["shield", "R"],
+            ["shield", "F"],
+            ["stolem4", "R"],
+            ["taze", "R"],
+            ["taze", "11"],
+            ["taze", "F"],
+            ["taze", "VF"],
+            ["198", "R"],
+            ["198", "11"],
+            ["198", "F"],
+            ["198", "VF"],
+            ["330", "R"],
+            ["330", "11"],
+            ["330", "F"],
+            ["330", "VF"],
+            ["701-1", "R"],
+            ["701-1", "11"],
+            ["701-1", "F"],
+            ["701-1", "VF"],
+            ["860", "R"],
+            ["1025", "R"],
+            ["1025", "11"],
+            ["1025", "F"],
+            ["1025", "VF"]
+        ]
+    }
+}
