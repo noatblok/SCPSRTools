@@ -47,7 +47,7 @@ class State(pc.State):
     """The app state."""
     department: str = "None Chosen"
     departmentChosen: bool = False
-    options: list[str] = []
+    options: list = []
     xpval: int = 0
     maxxp: int = 12800
     neededxp: int = 0
